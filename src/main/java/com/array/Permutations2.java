@@ -3,6 +3,10 @@ package com.array;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Given an array nums of distinct integers, return all the possible permutations. You can return the answer in any order.
+ */
+
 public class Permutations2 {
 
     public List<List<Integer>> permute(int[] nums) {
