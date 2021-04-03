@@ -2,7 +2,6 @@ package com.string;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import string.PermutationInString;
 
 public class PermutationInStringKMPTest {
     PermutationInString permute = new PermutationInString();
