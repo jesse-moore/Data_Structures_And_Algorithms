@@ -1,7 +1,8 @@
-package string;
+package com.string;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Assertions;
+import string.PermutationInString;
 
 public class PermutationInStringTest {
 
