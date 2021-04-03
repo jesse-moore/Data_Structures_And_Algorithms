@@ -3,6 +3,9 @@ package com.sort;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
+import static com.utils.CheckSort.isSorted;
+
+
 public class BubbleSortTest {
     BubbleSort bubbleSort = new BubbleSort();
     @Test
@@ -26,10 +29,4 @@ public class BubbleSortTest {
         Assertions.assertTrue(isSorted(testArr));
     }
 
-    private boolean isSorted(int[] arr){
-        for (int i = 0; i < arr.length - 1; i++) {
-            if(arr[i] > arr[i+1]) return false;
-        }
-        return true;
-    }
 }
