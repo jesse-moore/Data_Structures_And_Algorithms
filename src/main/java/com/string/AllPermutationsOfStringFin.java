@@ -5,12 +5,10 @@ import java.util.List;
 
 public class AllPermutationsOfStringFin {
 
-    public static void allPermutationsOfString(String str){
+    public static List<String> allPermutationsOfStringFin(String str){
         List<String> arr = new ArrayList<>();
         permutate(str, arr, 0,str.length()-1);
-        for(String item:arr){
-            System.out.println(item);
-        }
+        return arr;
     }
 
     public static void permutate(String str, List<String> arr, int i, int j){
